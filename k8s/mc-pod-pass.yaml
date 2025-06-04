@@ -7,9 +7,8 @@ spec:
   - name: nginx
     image: nginx
     ports:
-    - containerport: 80
+    - containerPort: 80
   - name: ubuntu
     image: ubuntu
     command: ["sleep"]
     args: ["3600"]
-    
