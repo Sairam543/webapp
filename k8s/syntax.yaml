@@ -1,0 +1,26 @@
+dictionary:
+  key: value
+  key: value
+  key: value
+
+person:
+  name:  sai
+  country: india
+  gender: male
+
+  # lists -multiple items
+
+  list - multiple items
+
+  lists:
+  - item1
+  - item2
+  - item3
+
+  courses:
+  - devops
+  - aws
+  - azure 
+
+
+
