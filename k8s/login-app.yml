@@ -1,0 +1,17 @@
+# Login App deployment script
+deployment:
+  name: login
+  replicas: 1
+  label: login
+  container: login-app
+  image: ravi2krishna/login-2436
+  port: 80
+
+service:
+  name: login-svc
+  type: NodePort
+  label: login
+  port: 80
+  nodeport: 30007
+
+~             
