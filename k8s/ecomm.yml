@@ -1,4 +1,4 @@
-# Login App deployment script
+# ecomm App deployment script
 deployment:
   name: ecomm
   replicas: 1
