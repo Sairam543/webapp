@@ -1,23 +1,24 @@
-apiversion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-   name: login
-   namespace: dev
+  name: login
+  namespace: dev
 spec:
   replicas: 1
   selector:
-      matchlabels:
-         app: login 
+    matchLabels:
+      app: login 
   template:
     metadata:
       labels:
-         app: login
+        app: login
     spec:
-      container:
-      name: nginx
-      image: ravi2krishna/login-2436:student
-      ports:
-      - containerport: 80
+      containers:
+      - name: nginx
+        image: ravi2krishna/login-2436:student
+        ports:
+        - containerPort: 80
+
 ---
 apiVersion: v1
 kind: Service
