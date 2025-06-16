@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: php-apache
+  spec:
+  replicas: 1
+  selector:
+    matchLabels:
+       run: php-apache
+  template:
+    meta     
