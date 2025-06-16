@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: ravi2krishna/login-243:trainer
+        image: ravi2krishna/login-2436:trainer
         ports:
         - containerPort: 80
 
